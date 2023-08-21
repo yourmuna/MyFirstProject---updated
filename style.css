@@ -399,6 +399,7 @@ i:hover{
         width: 100%;
         max-width: 475px;
         margin: auto;
+        overflow: hidden;
         /* max-width: 475px; */ 
     }
 
@@ -489,6 +490,11 @@ i:hover{
 
 /* responsive for XR */
 @media(max-width: 414px){
+    .mainCon{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+
     .oneLeft{
         /* border: 2px dotted floralwhite; */
         width: 425px;
@@ -500,7 +506,7 @@ i:hover{
     }
 
     .text{
-        border: 2px dotted green;
+        /* border: 2px dotted green; */
         width: 350px;
         font-size: 13px;
         margin-right: 25px;
@@ -1746,14 +1752,27 @@ i:hover{
 /* responsive for XR */
 @media(max-width: 414px){
     .newslet{
-        border: 3px dotted floralwhite;
-        /* margin-right: 40px; */
+        /* border: 3px dotted floralwhite; */
+        padding-left: 30px;
         width: 300px;
     }
 
     .newslet button{
         margin-right: 50px;
+        /* padding: 0 -20px; */
+        width: 100px;
+        padding-left: 20px;
         
+    }
+
+    .newslet p{
+        /* border: 2px solid red; */
+        font-size: 10px;
+        width: 60px;
+        /* align-items: center; */
+        /* right: 100px; */
+        /* margin: auto; */
+        /* padding-left: 50px; */
     }
 
     .newslet input{
@@ -1903,6 +1922,47 @@ i:hover{
         left: -55px;
     }
 }
+
+/* responsive for XR */
+@media(max-width: 414px){
+    .eightCon{
+        padding-right: 30px;
+        width: 80%;
+        height: 620px;
+        /* padding-left: -20px; */
+    }
+
+    .eightLeft p{
+        /* border: 2px solid red; */
+        margin-right: 40px;
+        width: 150px;
+    }
+
+    .started, .project{
+        /* border: 2px dashed floralwhite; */
+        margin-right: 40px;
+        margin-bottom: 10px;
+
+    }
+
+    .btn8{
+        font-size: 15px;
+        /* border: 2px dashed floralwhite; */
+        height: 60px;
+        width: 200px;
+        margin-right: 40px;
+        left: -20px;
+
+    }
+
+    .eightRight img{
+        width: 350px;
+        height: 270px;
+        left: -25px;
+    }
+}
+
+
 
 footer{
     /* border: 2px solid red; */
@@ -2061,7 +2121,56 @@ footer{
         text-align: center;
         line-height: 30px;
     }
-    
+}
 
+/* responsive for XR */
+@media(max-width: 414px){
+    .footLeft{
+        /* border: 1px dotted floralwhite; */
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
 
+    .logoUp{
+        margin-right: 30px;
+    }
+
+    .logoUp img{
+        /* border: 1px dotted floralwhite; */
+        width: 70px;
+    }
+
+    .logoUp h2{
+        font-size: 20px;
+    }
+
+    .footNote p{
+        /* border: 1px dotted floralwhite; */
+        width: 280px;
+        font-size: 12px;
+        /* margin-right: 3s0px; */
+    }
+
+    .footCon ul li{
+        font-size: 12px;
+    }
+
+    /* .footcontact ul li{
+        border: 1px dotted floralwhite;
+        width: 350px;
+    } */
+
+    .addy{
+        /* border: 1px dotted floralwhite; */
+        width: 300px;
+    }
+
+    .copyright{
+        width: 350px;
+        font-size: 12px;
+    }
+
+    .copyright p{
+        width: 350px;
+    }
 }
