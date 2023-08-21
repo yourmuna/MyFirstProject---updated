@@ -211,6 +211,32 @@ label{
     }
 }
 
+/* responsive for XR */
+@media(max-width: 414px){
+    .logoWrapper{
+        /* border: 2px dotted floralwhite; */
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .logoWrapper>img{
+        /* width: 80%; */
+        height: 80%;
+        margin-top: 5px;
+    }
+
+    .logoWrapper>h2{
+        font-size: 20px;
+    }
+
+    label{
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 35px;
+        font-weight: 400;
+    }
+}
+
 
 
 
@@ -458,6 +484,52 @@ i:hover{
         width: 410px;
         height: 240px;
 
+    }
+}
+
+/* responsive for XR */
+@media(max-width: 414px){
+    .oneLeft{
+        /* border: 2px dotted floralwhite; */
+        width: 425px;
+        margin-left: -15px;
+    }
+
+    .oneWriteup{
+        /* border: 2px dotted floralwhite; */
+    }
+
+    .text{
+        border: 2px dotted green;
+        width: 350px;
+        font-size: 13px;
+        margin-right: 25px;
+        /* margin: 20px auto; */
+    }
+
+    .socials{
+        /* border: 2px dashed red; */
+        /* flex-direction: row-reverse; */
+        margin-left: 80px;
+        width: 350px;
+    }
+
+    .hexagon{
+        display: none;
+    }
+
+    .linear, .images>img{
+        width: 300px;
+        height: 200px;
+        left: 30px;
+    }
+
+    .oneRight{
+        margin-top: 30px;
+    }
+
+    .images{
+        left: 40px;
     }
 }
 
@@ -906,6 +978,30 @@ i:hover{
     }
 }
 
+/* respnsive for XR */
+@media(max-width: 414px){
+    .linear3{
+        width: 330px;
+    }
+
+    .images3 img{
+        width: 330px;
+    }
+
+    .threeWriteup h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .threeWriteup p{
+        font-size: 15px;
+    }
+
+    .threeMission{
+        font-weight: 300;
+    }
+}
+
 
 
 .secFour{
@@ -1024,6 +1120,10 @@ i:hover{
     transition: opacity ease 250ms;
 }
 
+.mission4{
+    font-size: 17px;
+}
+
 /* responsive for secFour */
 @media(max-width: 475px){
     .secFour{
@@ -1068,6 +1168,27 @@ i:hover{
     .sliderNav{
         /* border: 2px solid darkblue; */
         margin-left: 100px;
+    }
+}
+
+/* responsive for XR */
+@media(max-width: 414px){
+    .fourLeft h2{
+        width: 250px;
+        line-height: 30px;
+        letter-spacing: .5px;
+    }
+
+    .mission4{
+        /* border: 2px dotted yellow; */
+        font-size: 15px;
+        line-height: 25px;
+        width: 300px;
+    }
+
+    .slider{
+        /* border: 2px dotted yellow; */
+        margin-left: 10px;
     }
 }
 
@@ -1153,6 +1274,22 @@ i:hover{
     .servic{
         border: none;
     }
+}
+
+/* responsive for XR */
+@media(max-width: 414px){
+    .fiveDiv{
+        width: 330px;
+        height: 550px;
+        padding-bottom: 40px;
+    }
+
+    .servicesCon{
+        /* border: 2px solid yellow; */
+        margin-left: 10px;
+        /* padding-top: -30px; */
+    }
+    
 }
 
 
@@ -1339,6 +1476,38 @@ i:hover{
         z-index: 3;
     }
 
+}
+
+/* responsive for XR */
+@media(max-width: 414px){
+    .linear6{
+        height: 350px;
+        right: 40px;
+    }
+
+    .images6{
+        width: 280px;
+        height: 350px;
+        top: 7250px;
+        right: 120px;
+
+    }
+
+    .content6{
+        /* border: 2px dashed teal; */
+        width: 400px;
+        /* margin-left: -30px; */
+    }
+
+    .about6{
+        width: 300px;
+    }
+
+    .sliderNav6{
+        /* border: 2px dashed rebeccapurple; */
+        padding-right: 50px;
+        margin-top: 50px;
+    }
 }
 
 
@@ -1571,6 +1740,24 @@ i:hover{
         /* border-top: 2px solid darkmagenta; */
         margin-bottom: 40px;
         height: 500px;
+    }
+}
+
+/* responsive for XR */
+@media(max-width: 414px){
+    .newslet{
+        border: 3px dotted floralwhite;
+        /* margin-right: 40px; */
+        width: 300px;
+    }
+
+    .newslet button{
+        margin-right: 50px;
+        
+    }
+
+    .newslet input{
+        /* margin-left: 20px; */
     }
 }
 
