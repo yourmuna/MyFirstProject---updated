@@ -272,6 +272,8 @@ label{
 .text{
     color: #f3f3f3;
     margin-bottom: 30px;
+    /* letter-spacing: .5px; */
+    line-height: 28px;
 }
 
 .bigText{
