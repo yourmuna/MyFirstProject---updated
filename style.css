@@ -49,7 +49,7 @@ nav{
 
 .agency{
     /* font-weight: 700; */
-    letter-spacing: -1px;
+    letter-spacing: 1px;
 }
 
 
@@ -1037,7 +1037,9 @@ i:hover{
 }
 
 .fourLeft>p{
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 25px;
+    width: 420px;
     font-weight: bold;
 }
 
@@ -1133,6 +1135,7 @@ i:hover{
 
 .mission4{
     font-size: 17px;
+    font-weight: light;
 }
 
 /* responsive for secFour */
@@ -1400,6 +1403,7 @@ i:hover{
 .about6{
     font-weight: 600; 
     letter-spacing: .4px;
+    line-height: 25px;
 }
 
 .content6>h3{
@@ -1603,6 +1607,7 @@ i:hover{
     background-image: linear-gradient(to right, rgb(130, 2, 180), rgb(172, 41, 133), rgb(189, 24, 139));
     color: #f3f3f3;
     font-weight: 800;
+    cursor: pointer;
     border-radius: 50px;
     /* margin-top: 10px; */
     /* margin-bottom: 30px; */
@@ -1895,6 +1900,7 @@ i:hover{
     color: #ff2759;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
     border-radius: 50px;
     /* margin-top: 10px; */
     /* margin-bottom: 30px; */
